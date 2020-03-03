@@ -1,6 +1,8 @@
 Este repositorio contiene los archivos y los codigos utilizados para la caracterización de los fotomultiplicadores de silicio S133601350CS de hamamatsu.
 
--La carpeta 1350CS contiene los datos de la corrtiente oscura y voltaje de polarización para el SiPM a diferentes temperaturas.
+-La carpeta FotonEquivalente contiene los codigos para el cálculo del equivalente en voltaje de un fotón (p.e) y una gráfica de la función de densidad de probabilidad (PDF) para un conjunto de 10.000 eventos.
+
+contiene los datos de la corrtiente oscura y voltaje de polarización para el SiPM a diferentes temperaturas.
 
 -La carpeta LEDPulser contiene la descripcion de Hardware en VHDL para la FPGA utilizada para el módulo de generación de pulsos realizado en ISE design suite- Xilinx.
 
