@@ -1,0 +1,26 @@
+# Clock pin for Nexys 3 Board
+NET "clk"       	LOC = "V10";		#  100 MHz Clock Pin
+
+# Switch inputs
+NET "value<0>"       	LOC = "T10";
+NET "value<1>"       	LOC = "T9";
+NET "value<2>"       	LOC = "V9";
+NET "value<3>"       	LOC = "M8";
+NET "value<4>"       	LOC = "N8";
+NET "value<5>"       	LOC = "U8";
+NET "value<6>"       	LOC = "V8";
+NET "value<7>"       	LOC = "T5";
+
+#JB1 conector
+# Output for the simulated pulse
+#NET "Pulse" 				LOC = "K1";
+NET "Trigger" 				LOC = "K1";
+NET "B" 				LOC = "L4";
+
+#JC1 conector
+# input gate
+Net "A" LOC = "L3";
+#output gate
+Net "AB" LOC = "K2";
+
+

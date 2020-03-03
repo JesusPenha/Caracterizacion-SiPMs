@@ -1,0 +1,90 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml PulseVariableGenerator_preroute.twx
+PulseVariableGenerator_map.ncd -o PulseVariableGenerator_preroute.twr
+PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf
+
+Design file:              PulseVariableGenerator_map.ncd
+Physical constraint file: PulseVariableGenerator.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+value<0>    |   65.036(R)|      SLOW  |   -4.539(R)|      FAST  |clk_BUFGP         |   0.000|
+value<1>    |   65.234(R)|      SLOW  |   -4.952(R)|      FAST  |clk_BUFGP         |   0.000|
+value<2>    |   65.293(R)|      SLOW  |   -4.881(R)|      FAST  |clk_BUFGP         |   0.000|
+value<3>    |   64.643(R)|      SLOW  |   -4.417(R)|      FAST  |clk_BUFGP         |   0.000|
+value<4>    |   64.567(R)|      SLOW  |   -4.558(R)|      FAST  |clk_BUFGP         |   0.000|
+value<5>    |   64.631(R)|      SLOW  |   -4.288(R)|      FAST  |clk_BUFGP         |   0.000|
+value<6>    |   64.762(R)|      SLOW  |   -4.400(R)|      FAST  |clk_BUFGP         |   0.000|
+value<7>    |   65.068(R)|      SLOW  |   -4.751(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+AB          |         8.460(R)|      SLOW  |         6.618(R)|      FAST  |clk_BUFGP         |   0.000|
+B           |         8.758(R)|      SLOW  |         6.963(R)|      FAST  |clk_BUFGP         |   0.000|
+Pulse       |         9.078(R)|      SLOW  |         7.303(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.492|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A              |AB             |    8.251|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Mar 26 19:57:29 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 232 MB
+
+
+

@@ -1,0 +1,609 @@
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGeneratorTrigger/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator_preroute.twx PulseVariableGenerator_map.ncd -o PulseVariableGenerator_preroute.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator_preroute.twx PulseVariableGenerator_map.ncd -o PulseVariableGenerator_preroute.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator_preroute.twx PulseVariableGenerator_map.ncd -o PulseVariableGenerator_preroute.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator_preroute.twx PulseVariableGenerator_map.ncd -o PulseVariableGenerator_preroute.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator_preroute.twx PulseVariableGenerator_map.ncd -o PulseVariableGenerator_preroute.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator_preroute.twx PulseVariableGenerator_map.ncd -o PulseVariableGenerator_preroute.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator_preroute.twx PulseVariableGenerator_map.ncd -o PulseVariableGenerator_preroute.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+netgen -intstyle ise -ar Structure -tm PulseVariableGenerator -w -dir netgen/synthesis -ofmt vhdl -sim PulseVariableGenerator.ngc PulseVariableGenerator_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator_preroute.twx PulseVariableGenerator_map.ncd -o PulseVariableGenerator_preroute.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.xst" -ofn "C:/Users/Jesus/Documents/HALLEY/LAGO/FPGA/PulseGeneratorNexys3/LEDPulser/PulseVariableGenerator/PulseVariableGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PulseVariableGenerator.ucf -p xc6slx16-csg324-3 PulseVariableGenerator.ngc PulseVariableGenerator.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PulseVariableGenerator_map.ncd PulseVariableGenerator.ngd PulseVariableGenerator.pcf 
+par -w -intstyle ise -ol high -mt off PulseVariableGenerator_map.ncd PulseVariableGenerator.ncd PulseVariableGenerator.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseVariableGenerator.twx PulseVariableGenerator.ncd -o PulseVariableGenerator.twr PulseVariableGenerator.pcf -ucf PulseVariableGenerator.ucf 
+bitgen -intstyle ise -f PulseVariableGenerator.ut PulseVariableGenerator.ncd 

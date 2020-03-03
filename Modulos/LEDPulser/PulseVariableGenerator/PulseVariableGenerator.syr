@@ -1,0 +1,702 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: PulseVariableGenerator.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PulseVariableGenerator.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PulseVariableGenerator"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : PulseVariableGenerator
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Jesus\Documents\HALLEY\LAGO\FPGA\PulseGeneratorNexys3\LEDPulser\PulseVariableGenerator\PulseVariableGenerator.vhd" into library work
+Parsing entity <PulseVariableGenerator>.
+Parsing architecture <Behavioral> of entity <pulsevariablegenerator>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <PulseVariableGenerator> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\Jesus\Documents\HALLEY\LAGO\FPGA\PulseGeneratorNexys3\LEDPulser\PulseVariableGenerator\PulseVariableGenerator.vhd" Line 52: Using initial value 999311 for min_freq since it is never assigned
+WARNING:HDLCompiler:92 - "C:\Users\Jesus\Documents\HALLEY\LAGO\FPGA\PulseGeneratorNexys3\LEDPulser\PulseVariableGenerator\PulseVariableGenerator.vhd" Line 99: tmp_clk_t should be on the sensitivity list of the process
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <PulseVariableGenerator>.
+    Related source file is "C:\Users\Jesus\Documents\HALLEY\LAGO\FPGA\PulseGeneratorNexys3\LEDPulser\PulseVariableGenerator\PulseVariableGenerator.vhd".
+    Found 32-bit register for signal <my_div.div_cnt>.
+    Found 1-bit register for signal <tmp_clk_T>.
+    Found 32-bit register for signal <my_trigger.div_cnt_T>.
+    Found 1-bit register for signal <tmp_clk>.
+    Found 32-bit adder for signal <decimal_value[31]_GND_4_o_add_1_OUT> created at line 60.
+    Found 32-bit adder for signal <my_div.div_cnt[31]_GND_4_o_add_6_OUT> created at line 74.
+    Found 32-bit adder for signal <my_trigger.div_cnt_T[31]_GND_4_o_add_13_OUT> created at line 96.
+    Found 32-bit comparator greater for signal <n0002> created at line 66
+    Found 32-bit comparator equal for signal <max_count[31]_my_div.div_cnt[31]_equal_6_o> created at line 69
+    Found 32-bit comparator greater for signal <n0014> created at line 88
+    Found 32-bit comparator equal for signal <max_count[31]_my_trigger.div_cnt_T[31]_equal_13_o> created at line 91
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  66 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+Unit <PulseVariableGenerator> synthesized.
+
+Synthesizing Unit <div_21s_32s>.
+    Related source file is "".
+    Found 32-bit subtractor for signal <b[31]_unary_minus_3_OUT> created at line 0.
+    Found 52-bit adder for signal <n2110> created at line 0.
+    Found 52-bit adder for signal <GND_29_o_b[31]_add_7_OUT> created at line 0.
+    Found 51-bit adder for signal <n2114> created at line 0.
+    Found 51-bit adder for signal <GND_29_o_b[31]_add_9_OUT> created at line 0.
+    Found 50-bit adder for signal <n2118> created at line 0.
+    Found 50-bit adder for signal <GND_29_o_b[31]_add_11_OUT> created at line 0.
+    Found 49-bit adder for signal <n2122> created at line 0.
+    Found 49-bit adder for signal <GND_29_o_b[31]_add_13_OUT> created at line 0.
+    Found 48-bit adder for signal <n2126> created at line 0.
+    Found 48-bit adder for signal <GND_29_o_b[31]_add_15_OUT> created at line 0.
+    Found 47-bit adder for signal <n2130> created at line 0.
+    Found 47-bit adder for signal <GND_29_o_b[31]_add_17_OUT> created at line 0.
+    Found 46-bit adder for signal <n2134> created at line 0.
+    Found 46-bit adder for signal <GND_29_o_b[31]_add_19_OUT> created at line 0.
+    Found 45-bit adder for signal <n2138> created at line 0.
+    Found 45-bit adder for signal <GND_29_o_b[31]_add_21_OUT> created at line 0.
+    Found 44-bit adder for signal <n2142> created at line 0.
+    Found 44-bit adder for signal <GND_29_o_b[31]_add_23_OUT> created at line 0.
+    Found 43-bit adder for signal <n2146> created at line 0.
+    Found 43-bit adder for signal <GND_29_o_b[31]_add_25_OUT> created at line 0.
+    Found 42-bit adder for signal <n2150> created at line 0.
+    Found 42-bit adder for signal <GND_29_o_b[31]_add_27_OUT> created at line 0.
+    Found 41-bit adder for signal <n2154> created at line 0.
+    Found 41-bit adder for signal <GND_29_o_b[31]_add_29_OUT> created at line 0.
+    Found 40-bit adder for signal <n2158> created at line 0.
+    Found 40-bit adder for signal <GND_29_o_b[31]_add_31_OUT> created at line 0.
+    Found 39-bit adder for signal <n2162> created at line 0.
+    Found 39-bit adder for signal <GND_29_o_b[31]_add_33_OUT> created at line 0.
+    Found 38-bit adder for signal <n2166> created at line 0.
+    Found 38-bit adder for signal <GND_29_o_b[31]_add_35_OUT> created at line 0.
+    Found 37-bit adder for signal <n2170> created at line 0.
+    Found 37-bit adder for signal <GND_29_o_b[31]_add_37_OUT> created at line 0.
+    Found 36-bit adder for signal <n2174> created at line 0.
+    Found 36-bit adder for signal <GND_29_o_b[31]_add_39_OUT> created at line 0.
+    Found 35-bit adder for signal <n2178> created at line 0.
+    Found 35-bit adder for signal <GND_29_o_b[31]_add_41_OUT> created at line 0.
+    Found 34-bit adder for signal <n2182> created at line 0.
+    Found 34-bit adder for signal <GND_29_o_b[31]_add_43_OUT> created at line 0.
+    Found 33-bit adder for signal <n2186> created at line 0.
+    Found 33-bit adder for signal <GND_29_o_b[31]_add_45_OUT> created at line 0.
+    Found 22-bit adder for signal <GND_29_o_BUS_0001_add_48_OUT[21:0]> created at line 0.
+    Found 53-bit adder for signal <GND_29_o_b[31]_add_5_OUT> created at line 0.
+    Found 53-bit comparator greater for signal <BUS_0001_INV_1032_o> created at line 0
+    Found 52-bit comparator greater for signal <BUS_0002_INV_1031_o> created at line 0
+    Found 51-bit comparator greater for signal <BUS_0003_INV_1030_o> created at line 0
+    Found 50-bit comparator greater for signal <BUS_0004_INV_1029_o> created at line 0
+    Found 49-bit comparator greater for signal <BUS_0005_INV_1028_o> created at line 0
+    Found 48-bit comparator greater for signal <BUS_0006_INV_1027_o> created at line 0
+    Found 47-bit comparator greater for signal <BUS_0007_INV_1026_o> created at line 0
+    Found 46-bit comparator greater for signal <BUS_0008_INV_1025_o> created at line 0
+    Found 45-bit comparator greater for signal <BUS_0009_INV_1024_o> created at line 0
+    Found 44-bit comparator greater for signal <BUS_0010_INV_1023_o> created at line 0
+    Found 43-bit comparator greater for signal <BUS_0011_INV_1022_o> created at line 0
+    Found 42-bit comparator greater for signal <BUS_0012_INV_1021_o> created at line 0
+    Found 41-bit comparator greater for signal <BUS_0013_INV_1020_o> created at line 0
+    Found 40-bit comparator greater for signal <BUS_0014_INV_1019_o> created at line 0
+    Found 39-bit comparator greater for signal <BUS_0015_INV_1018_o> created at line 0
+    Found 38-bit comparator greater for signal <BUS_0016_INV_1017_o> created at line 0
+    Found 37-bit comparator greater for signal <BUS_0017_INV_1016_o> created at line 0
+    Found 36-bit comparator greater for signal <BUS_0018_INV_1015_o> created at line 0
+    Found 35-bit comparator greater for signal <BUS_0019_INV_1014_o> created at line 0
+    Found 34-bit comparator greater for signal <BUS_0020_INV_1013_o> created at line 0
+    Found 33-bit comparator greater for signal <BUS_0021_INV_1012_o> created at line 0
+    Found 32-bit comparator greater for signal <BUS_0022_INV_1011_o> created at line 0
+    Summary:
+	inferred  43 Adder/Subtractor(s).
+	inferred  22 Comparator(s).
+	inferred 443 Multiplexer(s).
+Unit <div_21s_32s> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 46
+ 22-bit adder                                          : 1
+ 32-bit adder                                          : 3
+ 32-bit subtractor                                     : 1
+ 33-bit adder                                          : 2
+ 34-bit adder                                          : 2
+ 35-bit adder                                          : 2
+ 36-bit adder                                          : 2
+ 37-bit adder                                          : 2
+ 38-bit adder                                          : 2
+ 39-bit adder                                          : 2
+ 40-bit adder                                          : 2
+ 41-bit adder                                          : 2
+ 42-bit adder                                          : 2
+ 43-bit adder                                          : 2
+ 44-bit adder                                          : 2
+ 45-bit adder                                          : 2
+ 46-bit adder                                          : 2
+ 47-bit adder                                          : 2
+ 48-bit adder                                          : 2
+ 49-bit adder                                          : 2
+ 50-bit adder                                          : 2
+ 51-bit adder                                          : 2
+ 52-bit adder                                          : 2
+ 53-bit adder                                          : 1
+# Registers                                            : 4
+ 1-bit register                                        : 2
+ 32-bit register                                       : 2
+# Comparators                                          : 26
+ 32-bit comparator equal                               : 2
+ 32-bit comparator greater                             : 3
+ 33-bit comparator greater                             : 1
+ 34-bit comparator greater                             : 1
+ 35-bit comparator greater                             : 1
+ 36-bit comparator greater                             : 1
+ 37-bit comparator greater                             : 1
+ 38-bit comparator greater                             : 1
+ 39-bit comparator greater                             : 1
+ 40-bit comparator greater                             : 1
+ 41-bit comparator greater                             : 1
+ 42-bit comparator greater                             : 1
+ 43-bit comparator greater                             : 1
+ 44-bit comparator greater                             : 1
+ 45-bit comparator greater                             : 1
+ 46-bit comparator greater                             : 1
+ 47-bit comparator greater                             : 1
+ 48-bit comparator greater                             : 1
+ 49-bit comparator greater                             : 1
+ 50-bit comparator greater                             : 1
+ 51-bit comparator greater                             : 1
+ 52-bit comparator greater                             : 1
+ 53-bit comparator greater                             : 1
+# Multiplexers                                         : 443
+ 1-bit 2-to-1 multiplexer                              : 441
+ 22-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <PulseVariableGenerator>.
+The following registers are absorbed into counter <my_div.div_cnt>: 1 register on signal <my_div.div_cnt>.
+The following registers are absorbed into counter <my_trigger.div_cnt_T>: 1 register on signal <my_trigger.div_cnt_T>.
+Unit <PulseVariableGenerator> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 24
+ 21-bit adder                                          : 1
+ 21-bit adder carry in                                 : 20
+ 22-bit adder                                          : 1
+ 32-bit adder                                          : 1
+ 32-bit subtractor                                     : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# Comparators                                          : 26
+ 32-bit comparator equal                               : 2
+ 32-bit comparator greater                             : 3
+ 33-bit comparator greater                             : 1
+ 34-bit comparator greater                             : 1
+ 35-bit comparator greater                             : 1
+ 36-bit comparator greater                             : 1
+ 37-bit comparator greater                             : 1
+ 38-bit comparator greater                             : 1
+ 39-bit comparator greater                             : 1
+ 40-bit comparator greater                             : 1
+ 41-bit comparator greater                             : 1
+ 42-bit comparator greater                             : 1
+ 43-bit comparator greater                             : 1
+ 44-bit comparator greater                             : 1
+ 45-bit comparator greater                             : 1
+ 46-bit comparator greater                             : 1
+ 47-bit comparator greater                             : 1
+ 48-bit comparator greater                             : 1
+ 49-bit comparator greater                             : 1
+ 50-bit comparator greater                             : 1
+ 51-bit comparator greater                             : 1
+ 52-bit comparator greater                             : 1
+ 53-bit comparator greater                             : 1
+# Multiplexers                                         : 443
+ 1-bit 2-to-1 multiplexer                              : 441
+ 22-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PulseVariableGenerator> ...
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_10> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_10> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_11> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_11> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_12> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_12> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_13> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_13> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_14> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_14> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_15> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_15> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_20> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_20> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_16> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_16> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_21> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_21> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_17> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_17> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_22> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_22> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_18> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_18> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_23> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_23> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_19> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_19> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_24> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_24> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_25> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_25> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_30> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_30> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_26> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_26> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_31> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_31> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_27> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_27> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_28> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_28> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_29> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_29> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_0> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_0> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_1> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_1> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_2> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_2> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_3> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_3> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_4> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_4> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_5> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_5> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_6> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_6> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_7> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_7> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_8> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_8> 
+INFO:Xst:2261 - The FF/Latch <my_div.div_cnt_9> in Unit <PulseVariableGenerator> is equivalent to the following FF/Latch, which will be removed : <my_trigger.div_cnt_T_9> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PulseVariableGenerator, actual ratio is 9.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : PulseVariableGenerator.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1218
+#      GND                         : 1
+#      INV                         : 15
+#      LUT1                        : 36
+#      LUT2                        : 15
+#      LUT3                        : 97
+#      LUT4                        : 152
+#      LUT5                        : 229
+#      LUT6                        : 143
+#      MUXCY                       : 301
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 227
+# FlipFlops/Latches                : 34
+#      FD                          : 34
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 9
+#      OBUF                        : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              34  out of  18224     0%  
+ Number of Slice LUTs:                  687  out of   9112     7%  
+    Number used as Logic:               687  out of   9112     7%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    687
+   Number with an unused Flip Flop:     653  out of    687    95%  
+   Number with an unused LUT:             0  out of    687     0%  
+   Number of fully used LUT-FF pairs:    34  out of    687     4%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  13  out of    232     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 34    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.828ns (Maximum Frequency: 261.206MHz)
+   Minimum input arrival time before clock: 80.820ns
+   Maximum output required time after clock: 4.453ns
+   Maximum combinational path delay: 5.259ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.828ns (frequency: 261.206MHz)
+  Total number of paths / destination ports: 2711 / 34
+-------------------------------------------------------------------------
+Delay:               3.828ns (Levels of Logic = 11)
+  Source:            my_div.div_cnt_5 (FF)
+  Destination:       tmp_clk (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: my_div.div_cnt_5 to tmp_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.447   0.943  my_div.div_cnt_5 (my_div.div_cnt_5)
+     LUT6:I3->O            1   0.205   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_lut<1> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<1> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<2> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<3> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<4> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<5> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<6> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<7> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<8> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<8>)
+     MUXCY:CI->O          33   0.213   1.410  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<9> (max_count[31]_my_div.div_cnt[31]_equal_6_o)
+     LUT3:I1->O            1   0.203   0.000  my_div.div_cnt_0_rstpot (my_div.div_cnt_0_rstpot)
+     FD:D                      0.102          my_div.div_cnt_0
+    ----------------------------------------
+    Total                      3.828ns (1.475ns logic, 2.353ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 2277887441551719600000000000 / 34
+-------------------------------------------------------------------------
+Offset:              80.820ns (Levels of Logic = 90)
+  Source:            value<0> (PAD)
+  Destination:       tmp_clk (FF)
+  Destination Clock: clk rising
+
+  Data Path: value<0> to tmp_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            67   1.222   1.764  value_0_IBUF (GND_4_o_decimal_value[31]_div_2/Madd_GND_29_o_b[31]_add_7_OUT_Madd_Madd_lut<10>)
+     LUT3:I1->O           34   0.203   1.425  Madd_decimal_value[31]_GND_4_o_add_1_OUT_xor<2>11 (decimal_value[31]_GND_4_o_add_1_OUT<2>)
+     LUT5:I3->O            5   0.203   1.059  GND_4_o_decimal_value[31]_div_2/BUS_0004_INV_1029_o11 (GND_4_o_decimal_value[31]_div_2/BUS_0004_INV_1029_o)
+     LUT5:I0->O            2   0.203   0.981  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_445_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_445_o)
+     LUT6:I0->O           13   0.203   1.297  GND_4_o_decimal_value[31]_div_2/BUS_0005_INV_1028_o12 (GND_4_o_decimal_value[31]_div_2/BUS_0005_INV_1028_o)
+     LUT6:I0->O            4   0.203   1.028  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_544_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_544_o)
+     LUT6:I1->O            1   0.203   0.000  GND_4_o_decimal_value[31]_div_2/BUS_0006_INV_1027_o2_G (N48)
+     MUXF7:I1->O          19   0.140   1.416  GND_4_o_decimal_value[31]_div_2/BUS_0006_INV_1027_o2 (GND_4_o_decimal_value[31]_div_2/BUS_0006_INV_1027_o)
+     LUT6:I1->O            2   0.203   0.961  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_641_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_641_o)
+     LUT6:I1->O            1   0.203   0.808  GND_4_o_decimal_value[31]_div_2/BUS_0007_INV_1026_o24_SW0 (N43)
+     LUT6:I3->O           23   0.205   1.401  GND_4_o_decimal_value[31]_div_2/BUS_0007_INV_1026_o24 (GND_4_o_decimal_value[31]_div_2/BUS_0007_INV_1026_o)
+     LUT4:I0->O            4   0.203   0.931  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_737_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_737_o)
+     LUT6:I2->O            1   0.203   0.944  GND_4_o_decimal_value[31]_div_2/BUS_0008_INV_1025_o3 (GND_4_o_decimal_value[31]_div_2/BUS_0008_INV_1025_o1)
+     LUT6:I0->O            1   0.203   0.827  GND_4_o_decimal_value[31]_div_2/BUS_0008_INV_1025_o1_SW2 (N45)
+     LUT5:I1->O            2   0.203   0.961  GND_4_o_decimal_value[31]_div_2/BUS_0008_INV_1025_o1 (GND_4_o_decimal_value[31]_div_2/BUS_0008_INV_1025_o2)
+     LUT5:I0->O           28   0.203   1.599  GND_4_o_decimal_value[31]_div_2/BUS_0008_INV_1025_o21 (GND_4_o_decimal_value[31]_div_2/BUS_0008_INV_1025_o)
+     LUT6:I0->O            1   0.203   0.944  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_829_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_829_o)
+     LUT6:I0->O            1   0.203   0.827  GND_4_o_decimal_value[31]_div_2/BUS_0009_INV_1024_o1_SW2 (N41)
+     LUT5:I1->O            1   0.203   0.580  GND_4_o_decimal_value[31]_div_2/BUS_0009_INV_1024_o1 (GND_4_o_decimal_value[31]_div_2/BUS_0009_INV_1024_o2)
+     LUT6:I5->O           24   0.205   1.517  GND_4_o_decimal_value[31]_div_2/BUS_0009_INV_1024_o21 (GND_4_o_decimal_value[31]_div_2/BUS_0009_INV_1024_o)
+     LUT5:I0->O            7   0.203   1.021  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_916_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_916_o)
+     LUT4:I0->O            0   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0010_INV_1023_o_lutdi3 (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0010_INV_1023_o_lutdi3)
+     MUXCY:DI->O           3   0.339   0.995  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0010_INV_1023_o_cy<3> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0010_INV_1023_o_cy<3>)
+     LUT5:I0->O           27   0.203   1.585  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0010_INV_1023_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0010_INV_1023_o_cy<4>)
+     LUT6:I0->O            3   0.203   0.898  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1009_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1009_o)
+     LUT4:I0->O            0   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0011_INV_1022_o_lutdi1 (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0011_INV_1022_o_lutdi1)
+     MUXCY:DI->O           1   0.145   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0011_INV_1022_o_cy<1> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0011_INV_1022_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0011_INV_1022_o_cy<2> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0011_INV_1022_o_cy<2>)
+     MUXCY:CI->O          12   0.213   1.253  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0011_INV_1022_o_cy<3> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0011_INV_1022_o_cy<3>)
+     LUT6:I1->O            6   0.203   0.973  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1097_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1097_o)
+     LUT4:I1->O            1   0.205   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_lut<1> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_cy<1> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_cy<2> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_cy<2>)
+     MUXCY:CI->O           4   0.213   1.028  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_cy<3> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_cy<3>)
+     LUT5:I0->O           38   0.203   1.721  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0012_INV_1021_o_cy<4>)
+     LUT5:I0->O            6   0.203   0.973  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1178_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1178_o)
+     LUT4:I1->O            1   0.205   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0013_INV_1020_o_lut<3> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0013_INV_1020_o_lut<3>)
+     MUXCY:S->O            1   0.366   0.944  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0013_INV_1020_o_cy<3> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0013_INV_1020_o_cy<3>)
+     LUT6:I0->O           36   0.203   1.693  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0013_INV_1020_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0013_INV_1020_o_cy<4>)
+     LUT5:I0->O            6   0.203   1.089  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1258_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1258_o)
+     LUT5:I0->O            1   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0014_INV_1019_o_lut<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0014_INV_1019_o_lut<4>)
+     MUXCY:S->O            1   0.172   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0014_INV_1019_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0014_INV_1019_o_cy<4>)
+     MUXCY:CI->O          54   0.213   1.918  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0014_INV_1019_o_cy<5> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0014_INV_1019_o_cy<5>)
+     LUT5:I0->O            2   0.203   0.961  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1339_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1339_o)
+     LUT5:I0->O            1   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0015_INV_1018_o_lut<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0015_INV_1018_o_lut<4>)
+     MUXCY:S->O            1   0.366   0.580  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0015_INV_1018_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0015_INV_1018_o_cy<4>)
+     LUT6:I5->O           32   0.205   1.636  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0015_INV_1018_o_cy<5> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0015_INV_1018_o_cy<5>)
+     LUT5:I0->O            6   0.203   1.089  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1418_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1418_o)
+     LUT5:I0->O            1   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0016_INV_1017_o_lut<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0016_INV_1017_o_lut<4>)
+     MUXCY:S->O           23   0.366   1.258  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0016_INV_1017_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0016_INV_1017_o_cy<4>)
+     LUT6:I4->O            6   0.203   0.973  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1498_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1498_o)
+     LUT4:I1->O            1   0.205   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0017_INV_1016_o_lut<3> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0017_INV_1016_o_lut<3>)
+     MUXCY:S->O            1   0.172   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0017_INV_1016_o_cy<3> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0017_INV_1016_o_cy<3>)
+     MUXCY:CI->O           2   0.213   0.617  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0017_INV_1016_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0017_INV_1016_o_cy<4>)
+     LUT5:I4->O           38   0.205   1.721  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0017_INV_1016_o_cy<5> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0017_INV_1016_o_cy<5>)
+     LUT5:I0->O            6   0.203   1.089  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1570_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1570_o)
+     LUT5:I0->O            1   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0018_INV_1015_o_lut<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0018_INV_1015_o_lut<4>)
+     MUXCY:S->O            1   0.366   0.580  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0018_INV_1015_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0018_INV_1015_o_cy<4>)
+     LUT6:I5->O           71   0.205   2.031  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0018_INV_1015_o_cy<5> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0018_INV_1015_o_cy<5>)
+     LUT5:I0->O            2   0.203   0.961  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1643_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1643_o)
+     LUT5:I0->O            1   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0019_INV_1014_o_lut<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0019_INV_1014_o_lut<4>)
+     MUXCY:S->O            1   0.172   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0019_INV_1014_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0019_INV_1014_o_cy<4>)
+     MUXCY:CI->O           3   0.213   0.755  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0019_INV_1014_o_cy<5> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0019_INV_1014_o_cy<5>)
+     LUT4:I2->O           37   0.203   1.707  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0019_INV_1014_o_cy<6> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0019_INV_1014_o_cy<6>)
+     LUT5:I0->O            5   0.203   1.059  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1714_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1714_o)
+     LUT5:I0->O            1   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0020_INV_1013_o_lut<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0020_INV_1013_o_lut<4>)
+     MUXCY:S->O            1   0.172   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0020_INV_1013_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0020_INV_1013_o_cy<4>)
+     MUXCY:CI->O          40   0.213   1.510  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0020_INV_1013_o_cy<5> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0020_INV_1013_o_cy<5>)
+     LUT5:I3->O            2   0.203   0.961  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1783_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1783_o)
+     LUT5:I0->O            1   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0021_INV_1012_o_lut<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0021_INV_1012_o_lut<4>)
+     MUXCY:S->O            1   0.172   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0021_INV_1012_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0021_INV_1012_o_cy<4>)
+     MUXCY:CI->O           2   0.213   0.617  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0021_INV_1012_o_cy<5> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0021_INV_1012_o_cy<5>)
+     LUT4:I3->O           21   0.205   1.458  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0021_INV_1012_o_cy<6> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0021_INV_1012_o_cy<6>)
+     LUT5:I0->O            2   0.203   0.961  GND_4_o_decimal_value[31]_div_2/Mmux_a[20]_GND_29_o_MUX_1850_o11 (GND_4_o_decimal_value[31]_div_2/a[20]_GND_29_o_MUX_1850_o)
+     LUT5:I0->O            1   0.203   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0022_INV_1011_o_lut<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0022_INV_1011_o_lut<4>)
+     MUXCY:S->O            1   0.172   0.000  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0022_INV_1011_o_cy<4> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0022_INV_1011_o_cy<4>)
+     MUXCY:CI->O           1   0.213   0.580  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0022_INV_1011_o_cy<5> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0022_INV_1011_o_cy<5>)
+     LUT5:I4->O            2   0.205   0.864  GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0022_INV_1011_o_cy<6> (GND_4_o_decimal_value[31]_div_2/Mcompar_BUS_0022_INV_1011_o_cy<6>)
+     LUT6:I2->O            1   0.203   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_lut<0> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<0> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<1> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<2> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<3> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<4> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<5> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<6> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<7> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<8> (Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<8>)
+     MUXCY:CI->O          33   0.213   1.410  Mcompar_max_count[31]_my_div.div_cnt[31]_equal_6_o_cy<9> (max_count[31]_my_div.div_cnt[31]_equal_6_o)
+     LUT3:I1->O            1   0.203   0.000  my_div.div_cnt_0_rstpot (my_div.div_cnt_0_rstpot)
+     FD:D                      0.102          my_div.div_cnt_0
+    ----------------------------------------
+    Total                     80.820ns (18.080ns logic, 62.740ns route)
+                                       (22.4% logic, 77.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.453ns (Levels of Logic = 2)
+  Source:            tmp_clk_T (FF)
+  Destination:       AB (PAD)
+  Source Clock:      clk rising
+
+  Data Path: tmp_clk_T to AB
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   0.651  tmp_clk_T (tmp_clk_T)
+     LUT2:I1->O            1   0.205   0.579  AB1 (AB_OBUF)
+     OBUF:I->O                 2.571          AB_OBUF (AB)
+    ----------------------------------------
+    Total                      4.453ns (3.223ns logic, 1.230ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               5.259ns (Levels of Logic = 3)
+  Source:            A (PAD)
+  Destination:       AB (PAD)
+
+  Data Path: A to AB
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.684  A_IBUF (A_IBUF)
+     LUT2:I0->O            1   0.203   0.579  AB1 (AB_OBUF)
+     OBUF:I->O                 2.571          AB_OBUF (AB)
+    ----------------------------------------
+    Total                      5.259ns (3.996ns logic, 1.263ns route)
+                                       (76.0% logic, 24.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.828|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.76 secs
+ 
+--> 
+
+Total memory usage is 269736 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :   32 (   0 filtered)
+

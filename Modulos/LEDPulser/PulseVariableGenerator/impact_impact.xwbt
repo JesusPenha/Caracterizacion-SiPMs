@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/impact.xsl
+OUTFILE=/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseVariableGenerator/PulseVariableGenerator
+LICENSE=iMPACT
+USER_INFO=iMPACT

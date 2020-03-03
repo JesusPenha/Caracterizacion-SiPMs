@@ -1,0 +1,14 @@
+Storage Target: SPI Flash Single FPGA
+64M
+FF
+pulse_test
+/home/user/Documentos/Halley/LAGO/FPGA/PulseGeneratorNexys3/PulseGeneraotrNexys3
+
+MCS
+No
+ulseVariableGenerator/PulseVariableGenerator/
+
+MCS
+No
+1
+No

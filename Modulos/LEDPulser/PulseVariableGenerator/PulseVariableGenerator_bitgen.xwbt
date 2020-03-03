@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Jesus\Documents\HALLEY\LAGO\FPGA\PulseGeneratorNexys3\LEDPulser\PulseVariableGenerator\PulseVariableGenerator.ncd
+OUTFILE=C:\Users\Jesus\Documents\HALLEY\LAGO\FPGA\PulseGeneratorNexys3\LEDPulser\PulseVariableGenerator\PulseVariableGenerator.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Jesus\Documents\HALLEY\LAGO\FPGA\PulseGeneratorNexys3\LEDPulser\PulseVariableGenerator
+LICENSE=WebPack
+USER_INFO=211114285_0_0_957
